@@ -1,0 +1,118 @@
+.header
+    display: flex
+    align-items: center
+    width: 70%
+    position: fixed
+    top: 0
+    z-index: 999
+    padding-top: 2em
+    @media (max-width: 1250px)
+        width: 100%
+        padding: 2em 1.5em 0 1.5em
+    & div
+        margin-left: 15px
+    & h1
+        @media (max-width: 1250px)
+            font-size: 1.5em
+    & h1:nth-child(2)
+        border: 3px solid var(--textColor)
+        padding: 0.1em .3em
+        margin: 7px
+        
+        
+.main
+    position: relative
+    display: flex
+    flex-wrap: wrap
+    width: 70%
+    overflow: scroll
+    padding: 1.5em
+    margin-top: 10vh
+    margin-bottom: 10vh
+    @media (max-width: 1250px)
+        padding: 1.5em
+        margin-top: 10vh
+        margin-bottom: 10vh
+        flex-wrap: nowrap
+        width: 100%
+        flex-direction: column
+    & section
+        & date
+            font-family: $akThin
+            font-size: 1.6em
+    & a
+        border: 3px solid var(--backgroundColor)
+        position: relative
+        display: flex
+        flex-direction: column
+        width: 50%
+        flex: 0 0 calc(50% - 60px)
+        margin: 0 15px
+        transition: 1s
+        margin: 1.5em
+        @media (max-width: 1250px)
+            width: 100%
+            flex: 1
+            margin: 0
+            padding-bottom: 2em
+        & h1
+            @media (max-width: 1250px)
+                font-size: 1.4em
+        & p
+            position: relative
+            height: 100%
+            font-size: 1.5em
+            width: 90%
+            padding-top: .5em
+        &:hover .goTriangle
+            display: flex
+        &:hover .lineContainer
+            gap: 0
+        &:hover .line:nth-child(2)
+            transition: .5s
+            animation: elevate .2s forwards
+        &:hover .line:last-child
+            transition: .5s
+            animation: elevateReverse .4s forwards
+            &::before
+                position: absolute
+                bottom: 10px
+                font-family: $victorMonoMedium
+        
+
+.footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 70%
+    height: 8vh
+    margin-top: 3em
+    position: fixed
+    bottom: 0
+    @media (max-width: 1250px)
+        width: 100%
+        padding: 0em 1.5em
+    & p,svg
+        font-family: $victorMonoMedium
+        width: 33.3%
+        font-size: .9em
+        @media (max-width: 1250px)
+            font-size: .8em
+    & p:first-child
+        text-align: left
+        @media (max-width: 1250px)
+            white-space: nowrap
+            font-size: .6em
+    & a
+        position: relative
+        display: flex
+        flex-direction: column
+        & svg
+            height: 1.2em
+            width: 100%
+    &:last-child
+        text-align: right 
+#triangle
+    position: absolute
+    top: -17px
+    height: .5em

@@ -11,11 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/5t3ph/11ty-sass-skeleton.git"
   },
-  "author": "5t3ph",
+  "author": "cromeoli",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.0.3"
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.0.3",
+    "swup": "^4.4.2"
   },
   "browserslist": [
     "> 0.2%",

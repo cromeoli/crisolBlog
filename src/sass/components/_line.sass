@@ -1,0 +1,26 @@
+.line
+    border-top: 3px solid var(--textColor)
+    display: inline-block
+
+.lineContainer
+    transition: .4s
+    padding-top: .5em
+    display: flex
+    width: 100%
+    gap: 7px
+    flex: 0 0 0 33%
+    & :first-child
+        flex-basis: 80%
+    & :nth-last-child(-n+2)
+        flex-basis: 5%
+        
+.goTriangle
+    display: none
+    position: absolute
+    z-index: 999
+    width: .5em
+    bottom: 5px
+    right: 10px
+    transform: rotate(90deg)
+    animation: blink 1s infinite
+        

@@ -1,0 +1,55 @@
+:root
+
+*
+    background: var(--backgroundColor)
+    color: var(--textColor)
+    font-family: $akRegular
+    box-sizing: border-box
+    ::selection
+        background: var(--textColor)
+        color: var(--backgroundColor)
+
+body
+    display: flex
+    flex-direction: column
+    align-items: center
+    min-height: 100vh
+    flex: 1
+
+h1
+    font-family: $victorMonoBold
+    font-size: 2em
+
+h2,h3,h4
+    padding: .5em .5em .5em 0
+
+p
+    font-size: 1.5em
+    max-width: 60ch
+    padding: 0 .5em .5em 0
+
+ol
+    font-size: 1.5em
+    max-width: 60ch
+    padding-left: 2em
+    & li
+        padding: .5em 0
+
+ul
+    font-size: 1.5em
+    max-width: 60ch
+    padding-left: 2em
+    & li
+        padding: .5em 0
+
+button
+    padding: 1em
+    font-size: 1em
+    width: 100%
+    cursor: pointer
+    border: 3px solid var(--textColor)
+    margin-bottom: 1em
+    margin-top: 1em
+    &:hover
+        background: var(--textColor)
+        color: var(--backgroundColor)

@@ -1,5 +1,25 @@
 ---
-layout: base.njk
-title: Hello World
+layout: main.njk
+title: Crisol
 ---
 
+{% set index = 0 %}
+{% for post in collections.post %}
+    {% set index = index + 1 %}
+    <a href="{{ post.url }}">
+        <date>{{ post.data.postDate }}</date>
+        <h1>
+            {{ post.data.title }}
+        </h1>
+        <p> {{ post.data.summary}}
+            <svg class="goTriangle" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M5 0L9.33013 7.5H0.669873L5 0Z" fill="currentColor"/>
+			</svg>
+        </p>
+        <div class="lineContainer">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </a>
+{% endfor%}

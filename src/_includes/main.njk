@@ -1,0 +1,32 @@
+---
+layout: base.njk
+---
+
+{# Plantilla para la página principal #}
+<body id="swup">
+	<header class="header">
+		<h1>El</h1>
+		<h1 class="transition-fade" >Crisol</h1>
+		<div class="line transition-extend">
+
+		</div>
+	</header>
+	<main class="main transition-goAway">
+	    {{ content | safe }}
+	</main>
+    <footer class="footer">
+        <p>Christian Romero Oliva</p>
+		<a href="/menu" class="menuIcon">
+			<svg id="triangle" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M5 0L9.33013 7.5H0.669873L5 0Z" fill="currentColor"/>
+			</svg>
+			<svg id="logo" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M15.5402 17.5872L20.6172 8.79357L15.5402 -2.28882e-05H5.38624L0.309258 8.79357L5.38624 17.5872H15.5402ZM10.4632 4.06957C7.85419 4.06957 5.73916 6.1846 5.73916 8.79361C5.73916 11.4026 7.85419 13.5176 10.4632 13.5176C13.0722 13.5176 15.1872 11.4026 15.1872 8.79361C15.1872 6.1846 13.0722 4.06957 10.4632 4.06957Z" fill="currentColor"/>
+			</svg>
+		</a>
+		<p>🄯 2023</p>
+		
+			
+    </footer>
+    
+</body>

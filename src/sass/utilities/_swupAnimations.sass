@@ -1,0 +1,39 @@
+.transition-fade
+    opacity: 1
+    transition: 600ms
+
+.transition-extend
+    width: 100%
+    transition: 400ms
+    transition-timing-function: ease-in
+    transform-origin: left
+
+.transition-extendLate
+    width: 100%
+    transition: 300ms
+    transition-timing-function: ease-in
+    transform-origin: right
+
+.transition-goAway
+    transition: 500ms
+    transition-timing-function: ease-in
+    transform: translateX(0%)
+
+.transition-openMenu
+    
+
+
+html.is-animating .transition-fade
+    opacity: 0
+
+html.is-animating .line
+    width: 0%
+
+html.is-leaving .line
+    width: 100%
+
+html.is-changing .line
+    width: 0%
+
+html.is-changing .transition-goAway
+    transform: translateX(-150%)
