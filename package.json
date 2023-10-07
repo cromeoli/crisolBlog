@@ -1,5 +1,5 @@
 {
-  "name": "11ty-sass-skeleton",
+  "name": "crisol",
   "version": "3.0.2",
   "description": "Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
   "main": "index.html",
