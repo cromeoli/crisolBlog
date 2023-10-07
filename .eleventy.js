@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/sass/base/fonts")
   eleventyConfig.addPassthroughCopy("src/js")
+  eleventyConfig.addPassthroughCopy("src/assets")
 
   return {
     dir: {

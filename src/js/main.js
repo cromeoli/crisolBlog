@@ -3,6 +3,14 @@ const swup = new Swup();
 var root = document.querySelector(':root');
 const botones = document.querySelectorAll('main.menu button');
 
+const temas = [
+    { background: '#FD653E', text: '#050209' },
+    { background: '#121212', text: '#D3A01D' },
+    { background: '#13143C', text: '#CFCFCF' },
+    { background: '#121212', text: '#DE6344' },
+    { background: '#FFFFFF', text: '#000000' }
+];
+
 function setTheme(background, text) {
     root.style.setProperty('--backgroundColor', background);
     root.style.setProperty('--textColor', text);
@@ -17,6 +25,8 @@ function aplicarTemaAlCargar() {
     if (storedTheme) {
         const { background, text } = JSON.parse(storedTheme);
         setTheme(background, text);
+    } else {
+        setTheme("#FD653E", "#050209");
     }
 }
 
@@ -26,13 +36,6 @@ function cambiarTema(background, text) {
 
 // Asigna un tema único a cada botón usando atributos de datos
 botones.forEach((boton, index) => {
-    const temas = [
-        { background: '#FD653E', text: '#050209' },
-        { background: '#121212', text: '#D3A01D' },
-        { background: '#13143C', text: '#CFCFCF' },
-        { background: '#121212', text: '#DE6344' },
-        { background: '#FFFFFF', text: '#000000' }
-    ];
 
     boton.addEventListener('click', function() {
         const tema = temas[index];
