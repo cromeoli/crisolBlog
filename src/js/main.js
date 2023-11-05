@@ -4,8 +4,8 @@ var root = document.querySelector(':root');
 const botones = document.querySelectorAll('main.menu button');
 
 const temas = [
-    { background: '#FD653E', text: '#050209' },
-    { background: '#121212', text: '#D3A01D' },
+    { background: '#FD653E', text: '#050209', accent: '#050209'},
+    { background: '#121212', text: '#D3A01D', accent: '#fe9e1d' },
     { background: '#13143C', text: '#CFCFCF' },
     { background: '#121212', text: '#DE6344' },
     { background: '#FFFFFF', text: '#000000' }
