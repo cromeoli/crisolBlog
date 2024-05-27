@@ -10,6 +10,7 @@ const temas = [
     { background: '#121212', text: '#DE6344' },
     { background: '#FFFFFF', text: '#000000' },
     { background: '#100F0F', text: '#CECDC3' },
+    { background: '#CE5D97', text: '#050209' },
     { background: '#050209', text: '#0DD79B' },
 ];
 
