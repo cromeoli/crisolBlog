@@ -8,7 +8,9 @@ const temas = [
     { background: '#121212', text: '#D3A01D', accent: '#fe9e1d' },
     { background: '#13143C', text: '#CFCFCF' },
     { background: '#121212', text: '#DE6344' },
-    { background: '#FFFFFF', text: '#000000' }
+    { background: '#FFFFFF', text: '#000000' },
+    { background: '#100F0F', text: '#CECDC3' },
+    { background: '#050209', text: '#0DD79B' },
 ];
 
 function setTheme(background, text) {
