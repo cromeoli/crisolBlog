@@ -1,7 +1,7 @@
 ---
 title: V de Vendetta
 postDate: "20 de Noviembre - 2024"
-summary: "Me gusta pensar que los genios hacen cosas normales, y la gente normal hacen cosas geniales."
+summary: "Me gusta pensar que los genios hacen cosas normales, y que la gente normal hace cosas geniales."
 ---
 
 Me gusta mucho Alan Moore y sus obras la verdad. Me sabe mal decir que son sólo suyas porque, según algunos artículos que he leído del mismo Alan, considera que muchos de los trabajos no habrían sido como son de no haber contado con sus compañeros, como David Lloyd, Brian Bolland o Dave Gibbons. En especial vi una química y satisfacción muy buenas reflejadas en las palabras que utilizaba para hablar de su proceso creativo con David Lloyd.
