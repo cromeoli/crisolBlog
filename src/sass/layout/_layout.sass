@@ -19,7 +19,6 @@
         padding: 0.1em .3em
         margin: 7px
         
-        
 .main
     position: relative
     display: flex
@@ -29,6 +28,8 @@
     padding: 1.5em
     margin-top: 10vh
     margin-bottom: 10vh
+    scrollbar-width: none
+    -ms-overflow-style: none
     @media (max-width: 1250px)
         padding: 1.5em
         margin-top: 10vh
@@ -40,8 +41,9 @@
         & date
             font-family: $akThin
             font-size: 1.6em
+    &::-webkit-scrollbar
+        display: none
     & a
-        border: 3px solid var(--backgroundColor)
         position: relative
         display: flex
         flex-direction: column

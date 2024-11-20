@@ -11,12 +11,13 @@ const temas = [
     { background: '#FFFFFF', text: '#000000' },
     { background: '#100F0F', text: '#CECDC3' },
     { background: '#CE5D97', text: '#050209' },
-    { background: '#050209', text: '#0DD79B' },
+    { background: '#050209', text: '#0DD79B', accent: 'red'},
 ];
 
-function setTheme(background, text) {
+function setTheme(background, text, accent) {
     root.style.setProperty('--backgroundColor', background);
     root.style.setProperty('--textColor', text);
+    root.style.setProperty('--accent', accent);
 
     // Almacena el tema seleccionado en el Local Storage
     localStorage.setItem('selectedTheme', JSON.stringify({ background, text }));
