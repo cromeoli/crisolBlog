@@ -32,7 +32,7 @@ Me gusta pensar que una persona normal puede hacer algo increíble, y también m
   
 Como nota final, creo que el común de los mortales puede compartir otro rasgo con las supuestas personas excelentes, y es el volverlo a intentar. El perseverar. Al final, es inevitable hacer algo si estás todos los días intentando hacer algo. De mejorar en ello, me gustaría hablar otro día.
 
-*Inglaterra prevalece*[^1]... supongo.
+*Inglaterra prevalece*... supongo.
 
 ###  Notas
 
@@ -44,8 +44,6 @@ Como nota final, creo que el común de los mortales puede compartir otro rasgo c
 >
 > *La segunda, que considera que los superhéroes son un precursor del fascismo. Reflexionen en el comportamiento de por ejemplo, Batman, y verán fácilmente la relación.*
 
-
-[^1]: En la novela gráfica *V de Vendetta*, existe un partido fascista que ha llegado al poder de Inglaterra tras una serie de eventos. Cuando los personajes del partido, en especial el líder, terminan una conversación oficial, se despiden diciendo: "*Inglaterra prevalece.*"
 - - -
 
 *Este artículo se ha escrito mientras escuchaba Mitch Murder - Turning Point / Jacket y tiene un contenido 100% humano, sin aportaciones de LLMs.*
