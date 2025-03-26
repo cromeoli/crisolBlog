@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "post-3"
             }
+          },
+          {
+            "id": "11633f8dd3e1dc71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post-5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "post-5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,6 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59114e7682d3cba2",
-  "lastOpenFiles": []
+  "active": "11633f8dd3e1dc71",
+  "lastOpenFiles": [
+    "post-4.md",
+    "post-5.md",
+    "Untitled.md",
+    "post-3.md"
+  ]
 }
