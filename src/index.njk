@@ -6,7 +6,7 @@ title: Crisol
 {% set index = 0 %}
 {% for post in collections.post %}
     {% set index = index + 1 %}
-    <a href="{{ post.url }}">
+    <a class="postLink" href="{{ post.url }}">
         <date>{{ post.data.postDate }}</date>
         <h1>
             {{ post.data.title }}
